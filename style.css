@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: coral;
+}
+button{
+    padding-right: 10px;
+    background-color: rgb(212, 212, 174);
+    text-align: right;
+}
+header h1{
+    text-align: center;
+    color:rgb(180, 20, 73);
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+header ul li{
+    margin: 20px;
+    list-style: none;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+header ul li a i{
+    margin-right: 4px;
+}
+header ul li a:hover{
+    color:rgb(232, 227, 154) ;
+    text-shadow: 4px 3px 4px;
+}
+header h1:hover{
+    color: white;
+}
+#background{
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/01/06/26/open-book-1428428_1280.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.row{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(199, 52, 77);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col{
+    width: 150px;
+    height: 350px;
+    background-color: rgba(49, 7, 7, 0.521);
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(9, 2, 2);
+}
+footer p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(206, 166, 166);
+}
